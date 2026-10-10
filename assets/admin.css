@@ -1,0 +1,59 @@
+.wc-gfa-field {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wc-gfa-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.wc-gfa-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.wc-gfa-thumb {
+    position: relative;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.wc-gfa-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.wc-gfa-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    line-height: 16px;
+    text-align: center;
+    border: 0;
+    border-radius: 0 0 0 3px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.wc-gfa-remove:hover {
+    background: #d63638;
+}
