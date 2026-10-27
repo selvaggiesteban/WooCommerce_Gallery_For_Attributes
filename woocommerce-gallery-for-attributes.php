@@ -3,21 +3,21 @@
  * Plugin Name: WooCommerce Gallery For Attributes
  * Plugin URI:  https://github.com/EstebanSelvaggi/WooCommerce_Gallery_For_Attributes
  * Description: Adds a custom featured image and image gallery to each product variation. When a customer selects a variation on the frontend, the product gallery is swapped to that variation's images.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Esteban Selvaggi
  * Author URI:  https://github.com/EstebanSelvaggi
  * License:     GPL-2.0-or-later
  * Text Domain: wc-gfa
  * Requires PHP: 7.4
- * WC requires at least: 5.0
- * WC tested up to: 9.4
+ * WC requires at least: 8.0
+ * WC tested up to: 9.5
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'WC_GFA_VERSION', '1.0.0' );
+define( 'WC_GFA_VERSION', '1.0.1' );
 define( 'WC_GFA_META_KEY', '_wc_gfa_gallery' );
 
 /**
